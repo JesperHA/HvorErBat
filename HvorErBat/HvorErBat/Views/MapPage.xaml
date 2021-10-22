@@ -4,13 +4,12 @@
              x:Class="HvorErBat.Views.MapPage"
              xmlns:local="clr-namespace:HvorErBat.ViewModels"
              xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps">
+    <ContentPage.BindingContext>
+        <local:MapPageViewModel/>
+    </ContentPage.BindingContext>
     <ContentPage.Content>
-
-        <RefreshView x:DataType="local:MapPageViewModel" Command="{Binding LoadBusListCommand}" IsRefreshing="{Binding IsBusy, Mode=TwoWay}">
-
-            <Label Text="Refresh me!" TextColor="Black"/>
-        </RefreshView>
-        <!--<maps:Map>
+ 
+    <maps:Map x:Name="map">
             <x:Arguments>
                 <maps:MapSpan>
                     <x:Arguments>
@@ -25,6 +24,18 @@
                     </x:Arguments>
                 </maps:MapSpan>
             </x:Arguments>
-        </maps:Map>-->
+            <!--<maps:Map.Pins>
+                <maps:Pin Label="Bus1">
+                    --><!--<maps:Pin.Position>
+                        <maps:Position>
+                            <x:Arguments>
+                                <x:Double>55.1303431</x:Double>
+                                <x:Double>14.9221519</x:Double>
+                            </x:Arguments>
+                        </maps:Position>
+                    </maps:Pin.Position>--><!--
+                </maps:Pin>
+            </maps:Map.Pins>-->
+        </maps:Map>
     </ContentPage.Content>
 </ContentPage>

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using HvorErBat.Models;
 using HvorErBat.ViewModels;
 using Xamarin.Forms;
+using Xamarin.Forms.Maps;
 using Xamarin.Forms.Xaml;
 
 namespace HvorErBat.Views
@@ -21,9 +22,18 @@ namespace HvorErBat.Views
             BindingContext = _viewModel = new MapPageViewModel();
         }
 
-        protected override void OnAppearing()
+        protected override async void OnAppearing()
         {
             base.OnAppearing();
+            await _viewModel.ExecuteLoadBusList();
+
+
+            // Works, but Latitude and Longitude is reversed.
+            map.Pins.Add(new Pin
+            {
+                Label = "Bus 1",
+                Position = _viewModel.BusList[0].CoordinatesList[0]
+            });
         }
     }
 }

@@ -1,8 +1,3 @@
-C:\Users\Jesper\source\repos\HvorErBat\HvorErBat\HvorErBat\bin\Debug\netstandard2.0\HvorErBat.deps.json
-C:\Users\Jesper\source\repos\HvorErBat\HvorErBat\HvorErBat\bin\Debug\netstandard2.0\HvorErBat.dll
-C:\Users\Jesper\source\repos\HvorErBat\HvorErBat\HvorErBat\bin\Debug\netstandard2.0\ref\HvorErBat.dll
-C:\Users\Jesper\source\repos\HvorErBat\HvorErBat\HvorErBat\bin\Debug\netstandard2.0\HvorErBat.pdb
-C:\Users\Jesper\source\repos\HvorErBat\HvorErBat\HvorErBat\obj\Debug\netstandard2.0\HvorErBat.csproj.AssemblyReference.cache
 C:\Users\Jesper\source\repos\HvorErBat\HvorErBat\HvorErBat\obj\Debug\netstandard2.0\HvorErBat.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Jesper\source\repos\HvorErBat\HvorErBat\HvorErBat\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Jesper\source\repos\HvorErBat\HvorErBat\HvorErBat\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
@@ -15,7 +10,12 @@ C:\Users\Jesper\source\repos\HvorErBat\HvorErBat\HvorErBat\obj\Debug\netstandard
 C:\Users\Jesper\source\repos\HvorErBat\HvorErBat\HvorErBat\obj\Debug\netstandard2.0\HvorErBat.AssemblyInfoInputs.cache
 C:\Users\Jesper\source\repos\HvorErBat\HvorErBat\HvorErBat\obj\Debug\netstandard2.0\HvorErBat.AssemblyInfo.cs
 C:\Users\Jesper\source\repos\HvorErBat\HvorErBat\HvorErBat\obj\Debug\netstandard2.0\HvorErBat.csproj.CoreCompileInputs.cache
+C:\Users\Jesper\source\repos\HvorErBat\HvorErBat\HvorErBat\bin\Debug\netstandard2.0\HvorErBat.deps.json
+C:\Users\Jesper\source\repos\HvorErBat\HvorErBat\HvorErBat\bin\Debug\netstandard2.0\HvorErBat.dll
+C:\Users\Jesper\source\repos\HvorErBat\HvorErBat\HvorErBat\bin\Debug\netstandard2.0\ref\HvorErBat.dll
+C:\Users\Jesper\source\repos\HvorErBat\HvorErBat\HvorErBat\bin\Debug\netstandard2.0\HvorErBat.pdb
 C:\Users\Jesper\source\repos\HvorErBat\HvorErBat\HvorErBat\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Jesper\source\repos\HvorErBat\HvorErBat\HvorErBat\obj\Debug\netstandard2.0\HvorErBat.dll
 C:\Users\Jesper\source\repos\HvorErBat\HvorErBat\HvorErBat\obj\Debug\netstandard2.0\ref\HvorErBat.dll
 C:\Users\Jesper\source\repos\HvorErBat\HvorErBat\HvorErBat\obj\Debug\netstandard2.0\HvorErBat.pdb
+C:\Users\Jesper\source\repos\HvorErBat\HvorErBat\HvorErBat\obj\Debug\netstandard2.0\HvorErBat.csproj.AssemblyReference.cache

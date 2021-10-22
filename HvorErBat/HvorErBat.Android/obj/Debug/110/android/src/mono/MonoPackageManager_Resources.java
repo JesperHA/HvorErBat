@@ -5,6 +5,7 @@ public class MonoPackageManager_Resources {
 		"HvorErBat.Android.dll",
 		"FormsViewGroup.dll",
 		"HvorErBat.dll",
+		"MvvmHelpers.dll",
 		"Newtonsoft.Json.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
