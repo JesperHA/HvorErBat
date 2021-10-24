@@ -24,18 +24,6 @@
                     </x:Arguments>
                 </maps:MapSpan>
             </x:Arguments>
-            <!--<maps:Map.Pins>
-                <maps:Pin Label="Bus1">
-                    --><!--<maps:Pin.Position>
-                        <maps:Position>
-                            <x:Arguments>
-                                <x:Double>55.1303431</x:Double>
-                                <x:Double>14.9221519</x:Double>
-                            </x:Arguments>
-                        </maps:Position>
-                    </maps:Pin.Position>--><!--
-                </maps:Pin>
-            </maps:Map.Pins>-->
         </maps:Map>
     </ContentPage.Content>
 </ContentPage>

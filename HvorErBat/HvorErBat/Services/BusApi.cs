@@ -33,8 +33,20 @@ namespace HvorErBat.Services
         public async Task<JArray> GetBusResponseAsync()
         {
             var response = await client.GetStringAsync("");
-            var parsedJson = response.Replace("\")]", "\"]");
-            var busJson = JsonConvert.DeserializeObject<JArray>(parsedJson);
+
+            JArray busJson;
+
+            try
+            {
+                var parsedJson = response.Replace("\")]", "\"]");
+                busJson = JsonConvert.DeserializeObject<JArray>(parsedJson);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+
+
             return busJson;
         }
 

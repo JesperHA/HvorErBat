@@ -33,7 +33,7 @@ namespace HvorErBat.Services
                 List<Position> coordinatesList = new List<Position>();
                 foreach (var o in item[8])
                 {
-                    coordinatesList.Add(new Position((double)o[0] / 1000000, (double)o[1] / 1000000));
+                    coordinatesList.Add(new Position((double)o[1] / 1000000, (double)o[0] / 1000000));
                 }
                 var id = item[3].ToString();
                 var nextStop = item[11].ToString().Replace(" (Bornholm)", "").Replace(" (Born", "").Replace(" (B", "");
