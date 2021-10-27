@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -7,8 +8,16 @@ using System.Threading.Tasks;
 using HvorErBat.Models;
 using HvorErBat.ViewModels;
 using Xamarin.Forms;
-using Xamarin.Forms.Maps;
+using Xamarin.Forms.GoogleMaps;
+using Xamarin.Forms.Platform.Android;
 using Xamarin.Forms.Xaml;
+using System.IO;
+
+using SixLabors.ImageSharp;
+using SixLabors.ImageSharp.Advanced;
+using SixLabors.ImageSharp.Formats.Png;
+using SixLabors.ImageSharp.PixelFormats;
+using Image = System.Drawing.Image;
 
 namespace HvorErBat.Views
 {
@@ -17,21 +26,27 @@ namespace HvorErBat.Views
     {
 
         MapPageViewModel  _viewModel;
+        Position startPos = new Position(55.1303431, 14.9221519);
+        Distance startDistance = new Distance(20000);
         public MapPage()
         {
             InitializeComponent();
             BindingContext = _viewModel = new MapPageViewModel();
+
         }
 
         protected override async void OnAppearing()
         {
             base.OnAppearing();
+            map.MoveToRegion(MapSpan.FromCenterAndRadius(startPos, startDistance));
             await _viewModel.ExecuteLoadBusList();
-
-
             await UpdateMarkers();
 
+
+
         }
+
+
 
 
         protected async void reloadBusList()
@@ -45,12 +60,29 @@ namespace HvorErBat.Views
         List<Pin> toBeDeletedPins = new List<Pin>();
 
 
+        //public static System.Drawing.Bitmap ToBitmap<TPixel>(this Image<TPixel> image) where TPixel : unmanaged, IPixel<TPixel>
+        //{
+        //    using (var memoryStream = new MemoryStream())
+        //    {
+        //        var imageEncoder = image.GetConfiguration().ImageFormatsManager.FindEncoder(PngFormat.Instance);
+        //        image.Save(memoryStream, imageEncoder);
+
+        //        memoryStream.Seek(0, SeekOrigin.Begin);
+
+        //        return new System.Drawing.Bitmap(memoryStream);
+        //    }
+        //}
+
+
+
+
+
         protected async Task UpdateMarkers()
         {
             //add the to be removed pins to another list, since the looped list can't be altered while being looped
             foreach (var pin in pinList)
             {
-                if(!_viewModel.BusList.Any(b => b.Id == pin.StyleId)){
+                if(!_viewModel.BusList.Any(b => b.Id == pin.Tag.ToString())){
                     toBeDeletedPins.Add(pin);
                 }
             }
@@ -66,9 +98,9 @@ namespace HvorErBat.Views
             foreach (var bus in _viewModel.BusList)
             {
 
-                if (!pinList.Exists(x => x.StyleId == bus.Id))
+                if (!pinList.Exists(x => x.Tag.ToString() == bus.Id))
                 {
-                    Pin newPin = new Pin { StyleId = bus.Id, Label = bus.Title};
+                    Pin newPin = new Pin {  Tag = bus.Id, Label = bus.Title};
                     pinList.Add(newPin);
                     map.Pins.Add(newPin);
                 }
@@ -81,13 +113,17 @@ namespace HvorErBat.Views
                 foreach (var bus in _viewModel.BusList)
                 {
 
-                    Pin pin = pinList.Find( x => x.StyleId == bus.Id);
+                    Pin pin = pinList.Find( x => x.Tag.ToString() == bus.Id);
 
                     var position = bus.CoordinatesList[i];
 
                     pin.Label = bus.Title;
                     pin.Position = position;
+                    pin.Icon = BitmapDescriptorFactory.FromBundle("about");
+                    //pin.Icon = (Device.RuntimePlatform == Device.Android) ? BitmapDescriptorFactory.FromBundle("CarPins.png") : BitmapDescriptorFactory.FromView(new Xamarin.Forms.Image() { Source = "CarPins.png", WidthRequest = 30, HeightRequest = 30 });
 
+
+                    
                     
 
                     //map.Pins.Add(new Pin

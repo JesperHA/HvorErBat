@@ -23,7 +23,7 @@ namespace HvorErBat.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            global::Xamarin.FormsMaps.Init();
+            global::Xamarin.FormsGoogleMaps.Init("AIzaSyAJh_bZgVHQnurnwQEFOxsOtorHZ9VXxPg");
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

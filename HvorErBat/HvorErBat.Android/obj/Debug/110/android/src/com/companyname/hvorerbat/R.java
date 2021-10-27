@@ -5797,45 +5797,40 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int uiScrollGesturesDuringRotateOrZoom=0x7f030297;
+    public static final int uiTiltGestures=0x7f030297;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int uiTiltGestures=0x7f030298;
+    public static final int uiZoomControls=0x7f030298;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int uiZoomControls=0x7f030299;
-    /**
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     */
-    public static final int uiZoomGestures=0x7f03029a;
+    public static final int uiZoomGestures=0x7f030299;
     /**
      * Enable compat padding.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int useCompatPadding=0x7f03029b;
+    public static final int useCompatPadding=0x7f03029a;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int useMaterialThemeColors=0x7f03029c;
+    public static final int useMaterialThemeColors=0x7f03029b;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int useViewLifecycle=0x7f03029d;
+    public static final int useViewLifecycle=0x7f03029c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int values=0x7f03029e;
+    public static final int values=0x7f03029d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -5843,12 +5838,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int verticalOffset=0x7f03029f;
+    public static final int verticalOffset=0x7f03029e;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int viewInflaterClass=0x7f0302a0;
+    public static final int viewInflaterClass=0x7f03029f;
     /**
      * Voice button icon
      * <p>May be a reference to another resource, in the form
@@ -5856,14 +5851,14 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int voiceIcon=0x7f0302a1;
+    public static final int voiceIcon=0x7f0302a0;
     /**
      * Flag indicating whether this window should have an Action Bar
      * in place of the usual title bar.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBar=0x7f0302a2;
+    public static final int windowActionBar=0x7f0302a1;
     /**
      * Flag indicating whether this window's Action Bar should overlay
      * application content. Does nothing if the window would not
@@ -5871,14 +5866,14 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBarOverlay=0x7f0302a3;
+    public static final int windowActionBarOverlay=0x7f0302a2;
     /**
      * Flag indicating whether action modes should overlay window content
      * when there is not reserved space for their UI (such as an Action Bar).
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionModeOverlay=0x7f0302a4;
+    public static final int windowActionModeOverlay=0x7f0302a3;
     /**
      * A fixed height for the window along the major axis of the screen,
      * that is, when in portrait. Can be either an absolute dimension
@@ -5893,7 +5888,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMajor=0x7f0302a5;
+    public static final int windowFixedHeightMajor=0x7f0302a4;
     /**
      * A fixed height for the window along the minor axis of the screen,
      * that is, when in landscape. Can be either an absolute dimension
@@ -5908,7 +5903,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMinor=0x7f0302a6;
+    public static final int windowFixedHeightMinor=0x7f0302a5;
     /**
      * A fixed width for the window along the major axis of the screen,
      * that is, when in landscape. Can be either an absolute dimension
@@ -5923,7 +5918,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMajor=0x7f0302a7;
+    public static final int windowFixedWidthMajor=0x7f0302a6;
     /**
      * A fixed width for the window along the minor axis of the screen,
      * that is, when in portrait. Can be either an absolute dimension
@@ -5938,7 +5933,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMinor=0x7f0302a8;
+    public static final int windowFixedWidthMinor=0x7f0302a7;
     /**
      * The minimum width the window is allowed to be, along the major
      * axis of the screen.  That is, when in landscape.  Can be either
@@ -5954,7 +5949,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMajor=0x7f0302a9;
+    public static final int windowMinWidthMajor=0x7f0302a8;
     /**
      * The minimum width the window is allowed to be, along the minor
      * axis of the screen.  That is, when in portrait.  Can be either
@@ -5970,39 +5965,39 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMinor=0x7f0302aa;
+    public static final int windowMinWidthMinor=0x7f0302a9;
     /**
      * Flag indicating whether there should be no title on this window.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowNoTitle=0x7f0302ab;
+    public static final int windowNoTitle=0x7f0302aa;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int yearSelectedStyle=0x7f0302ac;
+    public static final int yearSelectedStyle=0x7f0302ab;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int yearStyle=0x7f0302ad;
+    public static final int yearStyle=0x7f0302ac;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int yearTodayStyle=0x7f0302ae;
+    public static final int yearTodayStyle=0x7f0302ad;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int zOrderOnTop=0x7f0302af;
+    public static final int zOrderOnTop=0x7f0302ae;
   }
   public static final class bool {
     public static final int abc_action_bar_embed_tabs=0x7f040000;
@@ -7277,74 +7272,73 @@ public final class R {
     public static final int common_google_play_services_install_button=0x7f0e0025;
     public static final int common_google_play_services_install_text=0x7f0e0026;
     public static final int common_google_play_services_install_title=0x7f0e0027;
-    public static final int common_google_play_services_notification_channel_name=0x7f0e0028;
-    public static final int common_google_play_services_notification_ticker=0x7f0e0029;
-    public static final int common_google_play_services_unknown_issue=0x7f0e002a;
-    public static final int common_google_play_services_unsupported_text=0x7f0e002b;
-    public static final int common_google_play_services_update_button=0x7f0e002c;
-    public static final int common_google_play_services_update_text=0x7f0e002d;
-    public static final int common_google_play_services_update_title=0x7f0e002e;
-    public static final int common_google_play_services_updating_text=0x7f0e002f;
-    public static final int common_google_play_services_wear_update_text=0x7f0e0030;
-    public static final int common_open_on_phone=0x7f0e0031;
-    public static final int common_signin_button_text=0x7f0e0032;
-    public static final int common_signin_button_text_long=0x7f0e0033;
-    public static final int copy_toast_msg=0x7f0e0034;
-    public static final int error_icon_content_description=0x7f0e0035;
-    public static final int exposed_dropdown_menu_content_description=0x7f0e0036;
-    public static final int fab_transformation_scrim_behavior=0x7f0e0037;
-    public static final int fab_transformation_sheet_behavior=0x7f0e0038;
-    public static final int fallback_menu_item_copy_link=0x7f0e0039;
-    public static final int fallback_menu_item_open_in_browser=0x7f0e003a;
-    public static final int fallback_menu_item_share_link=0x7f0e003b;
-    public static final int hide_bottom_view_on_scroll_behavior=0x7f0e003c;
-    public static final int icon_content_description=0x7f0e003d;
-    public static final int item_view_role_description=0x7f0e003e;
-    public static final int material_slider_range_end=0x7f0e003f;
-    public static final int material_slider_range_start=0x7f0e0040;
-    public static final int mtrl_badge_numberless_content_description=0x7f0e0041;
-    public static final int mtrl_chip_close_icon_content_description=0x7f0e0042;
-    public static final int mtrl_exceed_max_badge_number_content_description=0x7f0e0043;
-    public static final int mtrl_exceed_max_badge_number_suffix=0x7f0e0044;
-    public static final int mtrl_picker_a11y_next_month=0x7f0e0045;
-    public static final int mtrl_picker_a11y_prev_month=0x7f0e0046;
-    public static final int mtrl_picker_announce_current_selection=0x7f0e0047;
-    public static final int mtrl_picker_cancel=0x7f0e0048;
-    public static final int mtrl_picker_confirm=0x7f0e0049;
-    public static final int mtrl_picker_date_header_selected=0x7f0e004a;
-    public static final int mtrl_picker_date_header_title=0x7f0e004b;
-    public static final int mtrl_picker_date_header_unselected=0x7f0e004c;
-    public static final int mtrl_picker_day_of_week_column_header=0x7f0e004d;
-    public static final int mtrl_picker_invalid_format=0x7f0e004e;
-    public static final int mtrl_picker_invalid_format_example=0x7f0e004f;
-    public static final int mtrl_picker_invalid_format_use=0x7f0e0050;
-    public static final int mtrl_picker_invalid_range=0x7f0e0051;
-    public static final int mtrl_picker_navigate_to_year_description=0x7f0e0052;
-    public static final int mtrl_picker_out_of_range=0x7f0e0053;
-    public static final int mtrl_picker_range_header_only_end_selected=0x7f0e0054;
-    public static final int mtrl_picker_range_header_only_start_selected=0x7f0e0055;
-    public static final int mtrl_picker_range_header_selected=0x7f0e0056;
-    public static final int mtrl_picker_range_header_title=0x7f0e0057;
-    public static final int mtrl_picker_range_header_unselected=0x7f0e0058;
-    public static final int mtrl_picker_save=0x7f0e0059;
-    public static final int mtrl_picker_text_input_date_hint=0x7f0e005a;
-    public static final int mtrl_picker_text_input_date_range_end_hint=0x7f0e005b;
-    public static final int mtrl_picker_text_input_date_range_start_hint=0x7f0e005c;
-    public static final int mtrl_picker_text_input_day_abbr=0x7f0e005d;
-    public static final int mtrl_picker_text_input_month_abbr=0x7f0e005e;
-    public static final int mtrl_picker_text_input_year_abbr=0x7f0e005f;
-    public static final int mtrl_picker_toggle_to_calendar_input_mode=0x7f0e0060;
-    public static final int mtrl_picker_toggle_to_day_selection=0x7f0e0061;
-    public static final int mtrl_picker_toggle_to_text_input_mode=0x7f0e0062;
-    public static final int mtrl_picker_toggle_to_year_selection=0x7f0e0063;
-    public static final int overflow_tab_title=0x7f0e0064;
-    public static final int password_toggle_content_description=0x7f0e0065;
-    public static final int path_password_eye=0x7f0e0066;
-    public static final int path_password_eye_mask_strike_through=0x7f0e0067;
-    public static final int path_password_eye_mask_visible=0x7f0e0068;
-    public static final int path_password_strike_through=0x7f0e0069;
-    public static final int search_menu_title=0x7f0e006a;
-    public static final int status_bar_notification_info_overflow=0x7f0e006b;
+    public static final int common_google_play_services_notification_ticker=0x7f0e0028;
+    public static final int common_google_play_services_unknown_issue=0x7f0e0029;
+    public static final int common_google_play_services_unsupported_text=0x7f0e002a;
+    public static final int common_google_play_services_update_button=0x7f0e002b;
+    public static final int common_google_play_services_update_text=0x7f0e002c;
+    public static final int common_google_play_services_update_title=0x7f0e002d;
+    public static final int common_google_play_services_updating_text=0x7f0e002e;
+    public static final int common_google_play_services_wear_update_text=0x7f0e002f;
+    public static final int common_open_on_phone=0x7f0e0030;
+    public static final int common_signin_button_text=0x7f0e0031;
+    public static final int common_signin_button_text_long=0x7f0e0032;
+    public static final int copy_toast_msg=0x7f0e0033;
+    public static final int error_icon_content_description=0x7f0e0034;
+    public static final int exposed_dropdown_menu_content_description=0x7f0e0035;
+    public static final int fab_transformation_scrim_behavior=0x7f0e0036;
+    public static final int fab_transformation_sheet_behavior=0x7f0e0037;
+    public static final int fallback_menu_item_copy_link=0x7f0e0038;
+    public static final int fallback_menu_item_open_in_browser=0x7f0e0039;
+    public static final int fallback_menu_item_share_link=0x7f0e003a;
+    public static final int hide_bottom_view_on_scroll_behavior=0x7f0e003b;
+    public static final int icon_content_description=0x7f0e003c;
+    public static final int item_view_role_description=0x7f0e003d;
+    public static final int material_slider_range_end=0x7f0e003e;
+    public static final int material_slider_range_start=0x7f0e003f;
+    public static final int mtrl_badge_numberless_content_description=0x7f0e0040;
+    public static final int mtrl_chip_close_icon_content_description=0x7f0e0041;
+    public static final int mtrl_exceed_max_badge_number_content_description=0x7f0e0042;
+    public static final int mtrl_exceed_max_badge_number_suffix=0x7f0e0043;
+    public static final int mtrl_picker_a11y_next_month=0x7f0e0044;
+    public static final int mtrl_picker_a11y_prev_month=0x7f0e0045;
+    public static final int mtrl_picker_announce_current_selection=0x7f0e0046;
+    public static final int mtrl_picker_cancel=0x7f0e0047;
+    public static final int mtrl_picker_confirm=0x7f0e0048;
+    public static final int mtrl_picker_date_header_selected=0x7f0e0049;
+    public static final int mtrl_picker_date_header_title=0x7f0e004a;
+    public static final int mtrl_picker_date_header_unselected=0x7f0e004b;
+    public static final int mtrl_picker_day_of_week_column_header=0x7f0e004c;
+    public static final int mtrl_picker_invalid_format=0x7f0e004d;
+    public static final int mtrl_picker_invalid_format_example=0x7f0e004e;
+    public static final int mtrl_picker_invalid_format_use=0x7f0e004f;
+    public static final int mtrl_picker_invalid_range=0x7f0e0050;
+    public static final int mtrl_picker_navigate_to_year_description=0x7f0e0051;
+    public static final int mtrl_picker_out_of_range=0x7f0e0052;
+    public static final int mtrl_picker_range_header_only_end_selected=0x7f0e0053;
+    public static final int mtrl_picker_range_header_only_start_selected=0x7f0e0054;
+    public static final int mtrl_picker_range_header_selected=0x7f0e0055;
+    public static final int mtrl_picker_range_header_title=0x7f0e0056;
+    public static final int mtrl_picker_range_header_unselected=0x7f0e0057;
+    public static final int mtrl_picker_save=0x7f0e0058;
+    public static final int mtrl_picker_text_input_date_hint=0x7f0e0059;
+    public static final int mtrl_picker_text_input_date_range_end_hint=0x7f0e005a;
+    public static final int mtrl_picker_text_input_date_range_start_hint=0x7f0e005b;
+    public static final int mtrl_picker_text_input_day_abbr=0x7f0e005c;
+    public static final int mtrl_picker_text_input_month_abbr=0x7f0e005d;
+    public static final int mtrl_picker_text_input_year_abbr=0x7f0e005e;
+    public static final int mtrl_picker_toggle_to_calendar_input_mode=0x7f0e005f;
+    public static final int mtrl_picker_toggle_to_day_selection=0x7f0e0060;
+    public static final int mtrl_picker_toggle_to_text_input_mode=0x7f0e0061;
+    public static final int mtrl_picker_toggle_to_year_selection=0x7f0e0062;
+    public static final int overflow_tab_title=0x7f0e0063;
+    public static final int password_toggle_content_description=0x7f0e0064;
+    public static final int path_password_eye=0x7f0e0065;
+    public static final int path_password_eye_mask_strike_through=0x7f0e0066;
+    public static final int path_password_eye_mask_visible=0x7f0e0067;
+    public static final int path_password_strike_through=0x7f0e0068;
+    public static final int search_menu_title=0x7f0e0069;
+    public static final int status_bar_notification_info_overflow=0x7f0e006a;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0f0000;
@@ -10356,10 +10350,10 @@ public final class R {
       0x7f030254, 0x7f030256, 0x7f030257, 0x7f030258, 
       0x7f03025a, 0x7f03025b, 0x7f03025c, 0x7f03025d, 
       0x7f030260, 0x7f030261, 0x7f030284, 0x7f030285, 
-      0x7f030286, 0x7f030287, 0x7f0302a0, 0x7f0302a2, 
-      0x7f0302a3, 0x7f0302a4, 0x7f0302a5, 0x7f0302a6, 
-      0x7f0302a7, 0x7f0302a8, 0x7f0302a9, 0x7f0302aa, 
-      0x7f0302ab
+      0x7f030286, 0x7f030287, 0x7f03029f, 0x7f0302a1, 
+      0x7f0302a2, 0x7f0302a3, 0x7f0302a4, 0x7f0302a5, 
+      0x7f0302a6, 0x7f0302a7, 0x7f0302a8, 0x7f0302a9, 
+      0x7f0302aa
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
@@ -12081,7 +12075,7 @@ public final class R {
      */
     public static final int[] Badge={
       0x7f030036, 0x7f030040, 0x7f030042, 0x7f030149, 
-      0x7f0301b6, 0x7f0301c1, 0x7f03029f
+      0x7f0301b6, 0x7f0301c1, 0x7f03029e
     };
     /**
      * <p>This symbol is the offset where the {@link com.companyname.hvorerbat.R.attr#backgroundColor}
@@ -14868,7 +14862,7 @@ public final class R {
       0x7f0300fd, 0x7f030108, 0x7f030120, 0x7f030121, 
       0x7f030140, 0x7f03014a, 0x7f0301b7, 0x7f0301de, 
       0x7f0301ea, 0x7f0301f7, 0x7f0301fa, 0x7f0301fe, 
-      0x7f03029b
+      0x7f03029a
     };
     /**
      * <p>
@@ -16359,7 +16353,6 @@ public final class R {
      * <tr><td><code>{@link #MapAttrs_uiMapToolbar com.companyname.hvorerbat:uiMapToolbar}</code></td><td></td></tr>
      * <tr><td><code>{@link #MapAttrs_uiRotateGestures com.companyname.hvorerbat:uiRotateGestures}</code></td><td></td></tr>
      * <tr><td><code>{@link #MapAttrs_uiScrollGestures com.companyname.hvorerbat:uiScrollGestures}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiScrollGesturesDuringRotateOrZoom com.companyname.hvorerbat:uiScrollGesturesDuringRotateOrZoom}</code></td><td></td></tr>
      * <tr><td><code>{@link #MapAttrs_uiTiltGestures com.companyname.hvorerbat:uiTiltGestures}</code></td><td></td></tr>
      * <tr><td><code>{@link #MapAttrs_uiZoomControls com.companyname.hvorerbat:uiZoomControls}</code></td><td></td></tr>
      * <tr><td><code>{@link #MapAttrs_uiZoomGestures com.companyname.hvorerbat:uiZoomGestures}</code></td><td></td></tr>
@@ -16384,7 +16377,6 @@ public final class R {
      * @see #MapAttrs_uiMapToolbar
      * @see #MapAttrs_uiRotateGestures
      * @see #MapAttrs_uiScrollGestures
-     * @see #MapAttrs_uiScrollGesturesDuringRotateOrZoom
      * @see #MapAttrs_uiTiltGestures
      * @see #MapAttrs_uiZoomControls
      * @see #MapAttrs_uiZoomGestures
@@ -16397,7 +16389,7 @@ public final class R {
       0x7f030179, 0x7f03017a, 0x7f03017b, 0x7f03017c, 
       0x7f03019c, 0x7f03019f, 0x7f030293, 0x7f030294, 
       0x7f030295, 0x7f030296, 0x7f030297, 0x7f030298, 
-      0x7f030299, 0x7f03029a, 0x7f03029d, 0x7f0302af
+      0x7f030299, 0x7f03029c, 0x7f0302ae
     };
     /**
      * <p>This symbol is the offset where the {@link com.companyname.hvorerbat.R.attr#ambientEnabled}
@@ -16579,16 +16571,6 @@ public final class R {
      */
     public static final int MapAttrs_uiScrollGestures=17;
     /**
-     * <p>This symbol is the offset where the {@link com.companyname.hvorerbat.R.attr#uiScrollGesturesDuringRotateOrZoom}
-     * attribute's value can be found in the {@link #MapAttrs} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.companyname.hvorerbat:uiScrollGesturesDuringRotateOrZoom
-     */
-    public static final int MapAttrs_uiScrollGesturesDuringRotateOrZoom=18;
-    /**
      * <p>This symbol is the offset where the {@link com.companyname.hvorerbat.R.attr#uiTiltGestures}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
@@ -16597,7 +16579,7 @@ public final class R {
      *
      * @attr name com.companyname.hvorerbat:uiTiltGestures
      */
-    public static final int MapAttrs_uiTiltGestures=19;
+    public static final int MapAttrs_uiTiltGestures=18;
     /**
      * <p>This symbol is the offset where the {@link com.companyname.hvorerbat.R.attr#uiZoomControls}
      * attribute's value can be found in the {@link #MapAttrs} array.
@@ -16607,7 +16589,7 @@ public final class R {
      *
      * @attr name com.companyname.hvorerbat:uiZoomControls
      */
-    public static final int MapAttrs_uiZoomControls=20;
+    public static final int MapAttrs_uiZoomControls=19;
     /**
      * <p>This symbol is the offset where the {@link com.companyname.hvorerbat.R.attr#uiZoomGestures}
      * attribute's value can be found in the {@link #MapAttrs} array.
@@ -16617,7 +16599,7 @@ public final class R {
      *
      * @attr name com.companyname.hvorerbat:uiZoomGestures
      */
-    public static final int MapAttrs_uiZoomGestures=21;
+    public static final int MapAttrs_uiZoomGestures=20;
     /**
      * <p>This symbol is the offset where the {@link com.companyname.hvorerbat.R.attr#useViewLifecycle}
      * attribute's value can be found in the {@link #MapAttrs} array.
@@ -16627,7 +16609,7 @@ public final class R {
      *
      * @attr name com.companyname.hvorerbat:useViewLifecycle
      */
-    public static final int MapAttrs_useViewLifecycle=22;
+    public static final int MapAttrs_useViewLifecycle=21;
     /**
      * <p>This symbol is the offset where the {@link com.companyname.hvorerbat.R.attr#zOrderOnTop}
      * attribute's value can be found in the {@link #MapAttrs} array.
@@ -16637,7 +16619,7 @@ public final class R {
      *
      * @attr name com.companyname.hvorerbat:zOrderOnTop
      */
-    public static final int MapAttrs_zOrderOnTop=23;
+    public static final int MapAttrs_zOrderOnTop=22;
     /**
      * Attributes that can be used with a MaterialAlertDialog.
      * <p>Includes the following attributes:</p>
@@ -17334,8 +17316,8 @@ public final class R {
      */
     public static final int[] MaterialCalendar={
       0x0101020d, 0x7f0300e0, 0x7f0300e1, 0x7f0300e2, 
-      0x7f0300e3, 0x7f0301e4, 0x7f0302ac, 0x7f0302ad, 
-      0x7f0302ae
+      0x7f0300e3, 0x7f0301e4, 0x7f0302ab, 0x7f0302ac, 
+      0x7f0302ad
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowFullscreen}
@@ -17789,7 +17771,7 @@ public final class R {
      * @see #MaterialCheckBox_useMaterialThemeColors
      */
     public static final int[] MaterialCheckBox={
-      0x7f03006c, 0x7f03029c
+      0x7f03006c, 0x7f03029b
     };
     /**
      * <p>
@@ -17831,7 +17813,7 @@ public final class R {
      * @see #MaterialRadioButton_useMaterialThemeColors
      */
     public static final int[] MaterialRadioButton={
-      0x7f03006c, 0x7f03029c
+      0x7f03006c, 0x7f03029b
     };
     /**
      * <p>
@@ -19107,7 +19089,7 @@ public final class R {
      * @see #RangeSlider_values
      */
     public static final int[] RangeSlider={
-      0x7f03029e
+      0x7f03029d
     };
     /**
      * <p>This symbol is the offset where the {@link com.companyname.hvorerbat.R.attr#values}
@@ -19486,7 +19468,7 @@ public final class R {
       0x7f03009a, 0x7f0300be, 0x7f0300e4, 0x7f030137, 
       0x7f030153, 0x7f03017d, 0x7f0301e1, 0x7f0301e2, 
       0x7f0301f0, 0x7f0301f1, 0x7f030221, 0x7f030229, 
-      0x7f0302a1
+      0x7f0302a0
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -21166,7 +21148,7 @@ public final class R {
      * @see #SwitchMaterial_useMaterialThemeColors
      */
     public static final int[] SwitchMaterial={
-      0x7f03029c
+      0x7f03029b
     };
     /**
      * <p>

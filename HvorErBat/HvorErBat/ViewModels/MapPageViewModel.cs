@@ -8,7 +8,7 @@ using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using System.Diagnostics;
 using MvvmHelpers;
-using Xamarin.Forms.Maps;
+using Xamarin.Forms.GoogleMaps;
 
 namespace HvorErBat.ViewModels
 {
@@ -51,7 +51,8 @@ namespace HvorErBat.ViewModels
         //    }
         //}
 
-        
+
+
 
         public async Task ExecuteLoadBusList()
         {

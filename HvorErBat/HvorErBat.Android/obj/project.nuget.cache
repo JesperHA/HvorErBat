@@ -1,13 +1,26 @@
 {
   "version": 2,
-  "dgSpecHash": "X6v60t/lJhkSdOxms8KaOdeOGfCbL0Mnwb7Cmc7StDoNLfqw8/NtX0HTAZ+SRJEZitg7EHG38EFDTUvNjWtSog==",
-  "success": true,
+  "dgSpecHash": "3jaZe0VSbPL6p+ZwO2Gv3EsIv6264OL6vgB+PLtYu1PrpN6furaAJEeQm4hdiD3FG8Q7fWQq+mYGQuSVeaCEFw==",
+  "success": false,
   "projectFilePath": "C:\\Users\\Jesper\\source\\repos\\HvorErBat\\HvorErBat\\HvorErBat.Android\\HvorErBat.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jesper\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Jesper\\.nuget\\packages\\refractored.mvvmhelpers\\1.6.2\\refractored.mvvmhelpers.1.6.2.nupkg.sha512",
+    "C:\\Users\\Jesper\\.nuget\\packages\\sixlabors.imagesharp\\1.0.4\\sixlabors.imagesharp.1.0.4.nupkg.sha512",
+    "C:\\Users\\Jesper\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Jesper\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\Jesper\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Jesper\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.3\\system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512",
     "C:\\Users\\Jesper\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\Jesper\\.nuget\\packages\\xamarin.android.support.animated.vector.drawable\\25.1.0\\xamarin.android.support.animated.vector.drawable.25.1.0.nupkg.sha512",
+    "C:\\Users\\Jesper\\.nuget\\packages\\xamarin.android.support.annotations\\26.0.2\\xamarin.android.support.annotations.26.0.2.nupkg.sha512",
+    "C:\\Users\\Jesper\\.nuget\\packages\\xamarin.android.support.compat\\26.0.2\\xamarin.android.support.compat.26.0.2.nupkg.sha512",
+    "C:\\Users\\Jesper\\.nuget\\packages\\xamarin.android.support.core.ui\\26.0.2\\xamarin.android.support.core.ui.26.0.2.nupkg.sha512",
+    "C:\\Users\\Jesper\\.nuget\\packages\\xamarin.android.support.core.utils\\26.0.2\\xamarin.android.support.core.utils.26.0.2.nupkg.sha512",
+    "C:\\Users\\Jesper\\.nuget\\packages\\xamarin.android.support.fragment\\26.0.2\\xamarin.android.support.fragment.26.0.2.nupkg.sha512",
+    "C:\\Users\\Jesper\\.nuget\\packages\\xamarin.android.support.media.compat\\26.0.2\\xamarin.android.support.media.compat.26.0.2.nupkg.sha512",
+    "C:\\Users\\Jesper\\.nuget\\packages\\xamarin.android.support.v7.appcompat\\25.1.0\\xamarin.android.support.v7.appcompat.25.1.0.nupkg.sha512",
+    "C:\\Users\\Jesper\\.nuget\\packages\\xamarin.android.support.vector.drawable\\25.1.0\\xamarin.android.support.vector.drawable.25.1.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation\\1.1.0.8\\xamarin.androidx.annotation.1.1.0.8.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation.experimental\\1.0.0.8\\xamarin.androidx.annotation.experimental.1.0.0.8.nupkg.sha512",
@@ -52,16 +65,27 @@
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.versionedparcelable\\1.1.1.6\\xamarin.androidx.versionedparcelable.1.1.1.6.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.viewpager\\1.0.0.6\\xamarin.androidx.viewpager.1.0.0.6.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.viewpager2\\1.0.0.8\\xamarin.androidx.viewpager2.1.0.0.8.nupkg.sha512",
-    "C:\\Users\\Jesper\\.nuget\\packages\\xamarin.build.download\\0.10.0\\xamarin.build.download.0.10.0.nupkg.sha512",
+    "C:\\Users\\Jesper\\.nuget\\packages\\xamarin.build.download\\0.4.9\\xamarin.build.download.0.4.9.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\Jesper\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
-    "C:\\Users\\Jesper\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.2012\\xamarin.forms.maps.5.0.0.2012.nupkg.sha512",
+    "C:\\Users\\Jesper\\.nuget\\packages\\xamarin.forms.googlemaps\\3.3.0\\xamarin.forms.googlemaps.3.3.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.google.android.material\\1.2.1.1\\xamarin.google.android.material.1.2.1.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512",
-    "C:\\Users\\Jesper\\.nuget\\packages\\xamarin.googleplayservices.base\\117.1.0\\xamarin.googleplayservices.base.117.1.0.nupkg.sha512",
-    "C:\\Users\\Jesper\\.nuget\\packages\\xamarin.googleplayservices.basement\\117.1.0\\xamarin.googleplayservices.basement.117.1.0.nupkg.sha512",
-    "C:\\Users\\Jesper\\.nuget\\packages\\xamarin.googleplayservices.maps\\117.0.0\\xamarin.googleplayservices.maps.117.0.0.nupkg.sha512",
-    "C:\\Users\\Jesper\\.nuget\\packages\\xamarin.googleplayservices.tasks\\117.0.0\\xamarin.googleplayservices.tasks.117.0.0.nupkg.sha512"
+    "C:\\Users\\Jesper\\.nuget\\packages\\xamarin.googleplayservices.base\\60.1142.1\\xamarin.googleplayservices.base.60.1142.1.nupkg.sha512",
+    "C:\\Users\\Jesper\\.nuget\\packages\\xamarin.googleplayservices.basement\\60.1142.1\\xamarin.googleplayservices.basement.60.1142.1.nupkg.sha512",
+    "C:\\Users\\Jesper\\.nuget\\packages\\xamarin.googleplayservices.maps\\60.1142.1\\xamarin.googleplayservices.maps.60.1142.1.nupkg.sha512",
+    "C:\\Users\\Jesper\\.nuget\\packages\\xamarin.googleplayservices.tasks\\60.1142.1\\xamarin.googleplayservices.tasks.60.1142.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1107",
+      "level": "Error",
+      "message": "Version conflict detected for Xamarin.Android.Support.Compat. Install/reference Xamarin.Android.Support.Compat 26.0.2 directly to project HvorErBat.Android to resolve this issue. \r\n HvorErBat.Android -> HvorErBat -> Xamarin.Forms.GoogleMaps 3.3.0 -> Xamarin.GooglePlayServices.Maps 60.1142.1 -> Xamarin.GooglePlayServices.Basement 60.1142.1 -> Xamarin.Android.Support.Compat (>= 26.0.2) \r\n HvorErBat.Android -> HvorErBat -> Xamarin.Forms.GoogleMaps 3.3.0 -> Xamarin.Android.Support.v7.AppCompat 25.1.0 -> Xamarin.Android.Support.Compat (= 25.1.0).",
+      "libraryId": "Xamarin.Android.Support.Compat",
+      "targetGraphs": [
+        "MonoAndroid,Version=v11.0"
+      ]
+    }
+  ]
 }

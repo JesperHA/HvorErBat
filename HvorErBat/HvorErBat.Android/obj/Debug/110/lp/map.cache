@@ -1,3 +1,4 @@
+FFImageLoading.Platform.dll
 FormsViewGroup.dll
 Xamarin.AndroidX.Activity.dll
 Xamarin.AndroidX.Annotation.dll
@@ -43,7 +44,7 @@ Xamarin.AndroidX.VersionedParcelable.dll
 Xamarin.AndroidX.ViewPager.dll
 Xamarin.AndroidX.ViewPager2.dll
 Xamarin.Essentials.dll
-Xamarin.Forms.Maps.Android.dll
+Xamarin.Forms.GoogleMaps.Android.dll
 Xamarin.Forms.Platform.Android.dll
 Xamarin.Forms.Platform.dll
 Xamarin.Google.Android.Material.dll
@@ -58,6 +59,7 @@ androidx.core.core.aar
 androidx.customview.customview.aar
 androidx.viewpager.viewpager.aar
 androidx.savedstate.savedstate.aar
+androidx.recyclerview.recyclerview.aar
 androidx.lifecycle.lifecycle-viewmodel.aar
 androidx.arch.core.core-runtime.aar
 androidx.lifecycle.lifecycle-livedata-core.aar
@@ -65,7 +67,6 @@ androidx.loader.loader.aar
 androidx.lifecycle.lifecycle-viewmodel-savedstate.aar
 androidx.activity.activity.aar
 androidx.fragment.fragment.aar
-androidx.recyclerview.recyclerview.aar
 androidx.viewpager2.viewpager2.aar
 androidx.vectordrawable.vectordrawable.aar
 androidx.interpolator.interpolator.aar
