@@ -120,17 +120,7 @@ namespace HvorErBat.Views
                     pin.Label = bus.Title;
                     pin.Position = position;
                     pin.Icon = BitmapDescriptorFactory.FromBundle("about");
-                    //pin.Icon = (Device.RuntimePlatform == Device.Android) ? BitmapDescriptorFactory.FromBundle("CarPins.png") : BitmapDescriptorFactory.FromView(new Xamarin.Forms.Image() { Source = "CarPins.png", WidthRequest = 30, HeightRequest = 30 });
 
-
-                    
-                    
-
-                    //map.Pins.Add(new Pin
-                    //{
-                    //    Label = bus.Title,
-                    //    Position = position
-                    //});
 
                 }
                 await Task.Delay(1000);
