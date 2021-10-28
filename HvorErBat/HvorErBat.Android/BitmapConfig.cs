@@ -21,7 +21,7 @@ using AndroidBitmapDescriptorFactory = Android.Gms.Maps.Model.BitmapDescriptorFa
             int iconId = 0;
             switch (descriptor.Id)
             {
-                case "about":
+                case "outerCircle":
                     iconId = Resource.Drawable.icon_about;
                     break;
                 case "feed":

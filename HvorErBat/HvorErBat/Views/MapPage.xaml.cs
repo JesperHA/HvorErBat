@@ -119,7 +119,10 @@ namespace HvorErBat.Views
 
                     pin.Label = bus.Title;
                     pin.Position = position;
-                    pin.Icon = BitmapDescriptorFactory.FromBundle("about");
+                    pin.Icon = BitmapDescriptorFactory.FromBundle("outerCircle");
+                    pin.Anchor = new Xamarin.Forms.Point(0.5, 0.5);
+                    
+                    
 
 
                 }

@@ -142,4 +142,8 @@
       <Name>HvorErBat</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\outerCircle.png" />
+    <BundleResource Include="Resources\outerCircle2.png" />
+  </ItemGroup>
 </Project>

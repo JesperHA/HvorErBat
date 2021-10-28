@@ -681,3 +681,5 @@ C:\Users\Jesper\source\repos\HvorErBat\HvorErBat\HvorErBat.Android\obj\Debug\110
 C:\Users\Jesper\source\repos\HvorErBat\HvorErBat\HvorErBat.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\Jesper\source\repos\HvorErBat\HvorErBat\HvorErBat.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Jesper\source\repos\HvorErBat\HvorErBat\HvorErBat.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Jesper\source\repos\HvorErBat\HvorErBat\HvorErBat.Android\obj\Debug\110\res\drawable\outercircle.png
+C:\Users\Jesper\source\repos\HvorErBat\HvorErBat\HvorErBat.Android\obj\Debug\110\res\drawable\outercircle2.png
